@@ -103,6 +103,10 @@ nav {
   transform: scaleX(1);
 }
 
+html {
+  scroll-padding-top: 80px;
+}
+
 @media (max-width: 768px) {
   .toggle {
     display: inline-block;
