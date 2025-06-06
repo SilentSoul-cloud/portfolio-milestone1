@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SilentSoul-cloud</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="logo.png" />
+  </head>
+  <body>
+    <!--menu-->
+    <nav>
+      <div class="logo">Arka Saha</div>
+      <div
+        class="toggle"
+        onclick="document.querySelector('.menu').classList.toggle('active')"
+      >
+        ☰
+      </div>
+      <div class="menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!--about-->
+    <header class="hero" id="about">
+      <h1>Hi, I'm <span>Arka Saha</span></h1>
+      <h2>I like building random stuff with code :)</h2>
+      <p>
+        I'm currently diving into Computer Science—still figuring things out,
+        but I really enjoy coding and making small tools or experiments. This
+        site’s kinda like my corner of the internet where I put stuff I’m
+        learning or trying out. If you’ve got feedback or just wanna chat, hit
+        me up!
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#" class="btn">Resume</a>
+        <a
+          href="https://github.com/SilentSoul-cloud"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fa-brands fa-github fa-xl"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/SilentSoul-cloud/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin fa-xl"></i>
+        </a>
+      </div>
+    </header>
+
+     <!--Interests-->
+    <section class="interests" id="interests">
+      <div class="interests-box">
+        <h2>Interests</h2>
+        <ul class="interests-list">
+          <li>✏️ Sketching</li>
+          <li>📚 Reading</li>
+          <li>💻 Tech Exploring</li>
+          <li>🏛️ History</li>
+          <li>👨‍💻 Coding & Building Projects</li>
+        </ul>
+      </div>
+    </section>
+    <!--Skills-->
+    <section class="skills" id="skills">
+      <div class="skills-box">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+          <li>C</li>
+          <li>C++</li>
+          <li>HTML/CSS</li>
+          <li>Python</li>
+        </ul>
+      </div>
+    </section>
+
+    <!--Projects-->
+    <section class="projects" id="project">
+      <div class="projects-box">
+        <h2>Projects</h2>
+        <div class="project-list">
+          <div class="project-card">
+            <h3>Customer Billing System</h3>
+            <p>
+              A terminal-based billing tool I built to help small businesses
+              keep track of their customers, invoices, and payments. Written in
+              C, it taught me a lot about file handling and user interaction on
+              the console.
+            </p>
+            <div class="tech-tags">
+              <span>C language</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/SilentSoul-cloud/customer-billing-system"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <i class="fa-brands fa-github"></i>
+            </a>
+            
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Simple Calculator</h3>
+          <p>
+            This JavaScript-powered calculator was one of my first front-end
+            projects. It handles basic arithmetic operations and gave me my
+            first taste of DOM manipulation and layout design.
+            </p>
+            <div class="tech-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/SilentSoul-cloud/simple-calculator"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+    <section class="contact" id="contact">
+      <div class="contact-box">
+        <h2>Contact</h2>
+        <p>
+          Email:
+          <a href="mailto:your.email@example.com">your.email@example.com</a>
+        </p>
+        <p>
+          Reach out via email 
+          <br>or<br>
+          Connect on GitHub/LinkedIn!
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <br />
+      <p>Created by SilentSoul-cloud</p>
+    </footer>
+  </body>
+</html>
