@@ -44,12 +44,7 @@ It’s meant to showcase my initial projects, skills, and growth as a programmer
 ---
 
 ## 📬 Contact
-
-You can reach me by email:  
-[mailto:arka90690@gmail.com](mailto:arka90690@gmail.com)
-
-Or connect via the GitHub link above.
-
+Connect via the GitHub link above.
 ---
 
 ## 📝 License
