@@ -202,6 +202,16 @@ html {
   transform: scale(1.05);
 }
 
+.hero-buttons a i {
+  transition: color 0.2s;
+}
+.hero-buttons a:hover i.fa-github {
+  color: #333;
+}
+.hero-buttons a:hover i.fa-linkedin {
+  color: #0077b5;
+}
+
 /*animation */
 @keyframes fadeInUp {
   from {
@@ -410,6 +420,7 @@ html {
   font-size: 16px;
   font-weight: bold;
 }
+
 /*scrollbar*/
 ::-webkit-scrollbar {
   width: 10px;
